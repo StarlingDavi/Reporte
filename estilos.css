@@ -1,0 +1,91 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e8f1f9; /* Azul claro pastel */
+    color: #2a2a2a; /* Gris oscuro */
+    padding: 20px;
+}
+
+h2 {
+    color: #3a539b; /* Azul profundo */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    background: #ffffff;
+    padding: 25px;
+    margin: auto;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(58, 83, 155, 0.2); /* Azul profundo con transparencia */
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #3a539b;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b3c7e6; /* Azul suave */
+    border-radius: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3498db; /* Azul vibrante */
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9; /* Azul más oscuro */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(58, 83, 155, 0.1); /* Azul profundo con transparencia */
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddeaf6; /* Azul muy claro */
+    text-align: left;
+}
+
+th {
+    background-color: #3498db; /* Azul vibrante */
+    color: white;
+}
+
+td a {
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+}
+
+td a:hover {
+    color: #1c5980; /* Azul aún más oscuro */
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
